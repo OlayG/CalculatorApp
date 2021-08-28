@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CalculatorDisplay" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">?attr/colorOnBackground</item>
+        <item name="android:background">?android:colorBackground</item>
+        <item name="android:textAppearance">?attr/textAppearanceHeadline2</item>
+        <item name="android:gravity">bottom|right</item>
+    </style>
+
+
+
+    <style name="CalculatorButton" parent="Widget.MaterialComponents.Button.Icon">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">15dp</item>
+    </style>
+
+    <style name="CalculatorButton.Red">
+        <item name="android:textColor">?attr/colorError</item>
+    </style>
+
+</resources>
